@@ -1,20 +1,11 @@
-# Luxora Furniture Landing Page
-
-A premium furniture landing page built with pure HTML, CSS.
+# Luxora Furniture Landing Page (v2)
 
 ## Features
-- Modern hero section
-- Horizontal product carousel
-- Parallax background
-- Fully responsive
-- No dependencies
+- Auto sliding product carousel
+- Mobile navigation menu
+- Premium UI/UX
+- Contact form
+- GitHub Pages ready
 
-## Usage
-Open `index.html` in a browser or deploy via GitHub Pages.
-
-## Hosting
-Works on:
-- GitHub Pages
-- Netlify
-- Vercel
-# luxora-furniture-landing
+## How to deploy
+Upload all files to GitHub and enable Pages from main branch.

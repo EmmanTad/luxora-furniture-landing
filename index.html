@@ -4,58 +4,72 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Luxora Furniture</title>
+  <meta name="description" content="Premium modern furniture for stylish living spaces.">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <header>
-  <h1>LUXORA</h1>
-  <nav>
+  <h1 class="logo">LUXORA</h1>
+  <nav id="nav">
     <a href="#products">Products</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
   </nav>
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
 </header>
 
 <section class="hero">
-  <div>
+  <div class="hero-content">
     <h2>Premium Modern Furniture</h2>
-    <p>Comfort. Style. Luxury for your home.</p>
+    <p>Comfort. Style. Luxury.</p>
     <a href="#products" class="btn">Shop Now</a>
   </div>
 </section>
 
 <section class="carousel-section" id="products">
   <h2>Featured Collection</h2>
-  <div class="carousel-container">
-    <div class="product-card">
-      <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed" />
-      <h3>Scandi Lounge Chair</h3>
-      <p>$249.99</p>
+  <div class="carousel-wrapper">
+    <button onclick="scrollCarousel(-1)">❮</button>
+    <div class="carousel-container" id="carousel">
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed">
+        <h3>Scandi Lounge Chair</h3><p>$249</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7">
+        <h3>Luxury Leather Sofa</h3><p>$899</p>
+      </div>
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+        <h3>Coffee Table</h3><p>$129</p>
+      </div>
     </div>
-    <div class="product-card">
-      <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7" />
-      <h3>Luxury Leather Sofa</h3>
-      <p>$899.99</p>
-    </div>
-    <div class="product-card">
-      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" />
-      <h3>Minimalist Coffee Table</h3>
-      <p>$129.99</p>
-    </div>
+    <button onclick="scrollCarousel(1)">❯</button>
   </div>
+</section>
+
+<section class="about" id="about">
+  <h2>About Luxora</h2>
+  <p>Luxora delivers premium furniture crafted with design, comfort, and durability in mind.</p>
 </section>
 
 <section class="parallax"></section>
 
-<section class="testimonials">
-  <h2>What Customers Say</h2>
-  <p class="test-box">“Luxora completely transformed my living room.”</p>
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
 </section>
 
 <footer>
-  © 2025 Luxora Furniture – All Rights Reserved
+  © 2025 Luxora Furniture • Follow us on social media
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
