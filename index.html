@@ -2,130 +2,146 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Luxora Furnitures</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Premium modern furniture for stylish living spaces.">
-  <link rel="stylesheet" href="style.css">
+  <title>LUXORA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+  </style>
 </head>
 <body>
-  <header class="main-header">
-    <div class="container">
-      <h1 class="logo">LUXORA</h1>
+  <!-- Header/Navigation -->
+  <header class="header">
+    <div class="container flex-between">
+      <div class="logo">LUXORA</div>
       <nav>
         <a href="#">Home</a>
         <a href="#collection">Collection</a>
         <a href="#about">About</a>
+        <a href="#designer">Designers</a>
         <a href="#stores">Stores</a>
-        <a href="#contact">Contact</a>
+        <a href="#shop">Shop</a>
       </nav>
     </div>
   </header>
 
+  <!-- Hero/Slider -->
   <section class="hero">
-    <div class="hero-content">
-      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80" alt="Featured Sofa" class="hero-img-main">
-      <h2>Maggs Soft Sofa</h2>
-      <p class="hero-text">
-        Maggs Soft is multi-functional and versatile with its deep seat and backrest, wonderful for relaxing, reading, eating, sleeping, or chilling.
-      </p>
-    </div>
-  </section>
-
-  <section class="who-we-are section">
-    <div class="container">
-      <h3>We Love What We Do</h3>
-      <p>
-        At Luxora, we're focused on refined craftsmanship and flexible furniture design that elevates your space. Every piece is created with timeless style and enduring quality in mind.
-      </p>
-      <div class="featured-images-row">
-        <img src="https://i.pinimg.com/736x/cf/09/62/cf0962bbefcdad5b6429df0476972189.jpg?auto=format&fit=crop&w=100&q=80" alt="Modern Cabinet">
-        <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=100&q=80" alt="Green Sofa">
-        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=100&q=80" alt="Chair Studio">
+    <div class="hero-slider">
+      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80" alt="Maggs Soft Sofa" class="hero-img">
+      <div class="hero-caption">
+        <h2>MAGGS SOFT SOFA</h2>
+        <p>
+          Maggs Soft is multi-functional and versatile with its deep seat and backrest, wonderful for relaxing, reading, eating, sleeping or chilling.
+        </p>
       </div>
-      
+      <div class="slider-nav">
+        <span class="slider-arrow">&#10094;</span>
+        <span class="slider-arrow">&#10095;</span>
+      </div>
     </div>
   </section>
 
-  <section id="collection" class="collection section">
+  <!-- What We Do Section -->
+  <section class="we-do section">
     <div class="container">
-      <h3>Collection</h3>
+      <div class="flex-between flex-wrap">
+        <div class="we-do-text">
+          <h3>WE LOVE WHAT WE DO</h3>
+          <a href="#">Show more</a>
+        </div>
+        <div class="we-do-info">
+          LUXORA specializes in the field between architecture and flexible lifestyle design. We believe good furniture should be simple, durable, and elevate your living space. Created with love for details and quality.
+        </div>
+      </div>
+      <div class="we-do-images flex-even">
+        <img src="https://images.unsplash.com/photo-1515376721779-7db6951da88d?auto=format&fit=crop&w=500&q=80" alt="Green Sofa">
+        <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=500&q=80" alt="Workspace Chairs">
+        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=500&q=80" alt="Chair Exhibition">
+      </div>
+    </div>
+  </section>
+
+  <!-- Collection Grid -->
+  <section id="collection" class="section">
+    <div class="container">
+      <h3>COLLECTION</h3>
       <div class="collection-grid">
-        <div class="collection-card">
-          <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=400&q=80" alt="Chairs">
-          <span>Chairs</span>
-        </div>
-        <div class="collection-card">
-          <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=400&q=80" alt="Lounge">
-          <span>Lounge</span>
-        </div>
-        <div class="collection-card">
-          <img src="https://images.unsplash.com/photo-1460518451285-97b6aa326961?auto=format&fit=crop&w=400&q=80" alt="Tables">
-          <span>Tables</span>
-        </div>
-        <div class="collection-card">
-          <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=400&q=80" alt="Storage">
-          <span>Storage</span>
-        </div>
-        <div class="collection-card">
-          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Office">
-          <span>Office</span>
-        </div>
-        <div class="collection-card">
-          <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=400&q=80" alt="Books">
-          <span>Bookcases</span>
-        </div>
-        <div class="collection-card">
-          <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a6a6b?auto=format&fit=crop&w=400&q=80" alt="Decoration">
-          <span>Decoration</span>
-        </div>
-        <div class="collection-card">
-          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80" alt="Mirrors">
-          <span>Mirrors</span>
-        </div>
-        <div class="collection-card">
-          <img src="https://images.unsplash.com/photo-1515825836265-d07d1e39bad6?auto=format&fit=crop&w=400&q=80" alt="Others">
-          <span>Others</span>
-        </div>
+        <div class="col-item"><img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=400&q=80" alt="Chairs"><span>Chairs</span></div>
+        <div class="col-item"><img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=400&q=80" alt="Lounge"><span>Lounge</span></div>
+        <div class="col-item"><img src="https://images.unsplash.com/photo-1460518451285-97b6aa326961?auto=format&fit=crop&w=400&q=80" alt="Tables"><span>Tables</span></div>
+        <div class="col-item"><img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=400&q=80" alt="Storage"><span>Storage</span></div>
+        <div class="col-item"><img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Office"><span>Office</span></div>
+        <div class="col-item"><img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=400&q=80" alt="Books"><span>Books</span></div>
+        <div class="col-item"><img src="https://images.unsplash.com/photo-1465101178521-c1a9136a6a6b?auto=format&fit=crop&w=400&q=80" alt="Decoration"><span>Decoration</span></div>
+        <div class="col-item"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80" alt="Mirrors"><span>Mirrors</span></div>
+        <div class="col-item"><img src="https://images.unsplash.com/photo-1515825836265-d07d1e39bad6?auto=format&fit=crop&w=400&q=80" alt="Others"><span>Others</span></div>
       </div>
     </div>
   </section>
 
-  <section id="about" class="designer section">
+  <!-- Designers -->
+  <section id="designer" class="section designers">
     <div class="container">
-      <h3>Our Story & Designers</h3>
-      <div class="designer-row">
-        <div class="designer-details">
-          <h4>Ronan & Erwan Bouroullec</h4>
-          <p>
-            Since 2010, Ronan and Erwan Bouroullec have worked to bring innovative and beautiful designs to Luxora. Their approach is rooted in material exploration, sustainable practice, and an endless curiosity for making great spaces.
-          </p>
+      <h3>DESIGNERS</h3>
+      <div class="designer-row flex-even">
+        <div class="designer-card">
+          <img src="https://images.unsplash.com/photo-1515376721779-7db6951da88d?auto=format&fit=crop&w=250&q=80" alt="Designer 1">
+          <div class="designer-info">
+            <h4>RONAN &amp; ERWAN BOUROULLEC</h4>
+            <p>
+              Ronan and Erwan Bouroullec have worked with LUXORA since 2010 and are known for timeless, innovative furniture designs. Their work merges materials, forms, and colors into simple, elegant solutions.
+            </p>
+          </div>
+        </div>
+        <div class="designer-card">
+          <img src="https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=250&q=80" alt="Designer 2">
+          <div class="designer-info">
+            <h4>JANE SMITH</h4>
+            <p>
+              Jane Smith specializes in high-end minimalism, creating pieces that are both visually striking and functional.
+            </p>
+          </div>
+        </div>
+        <div class="designer-card">
+          <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=250&q=80" alt="Designer 3">
+          <div class="designer-info">
+            <h4>MARK LEE</h4>
+            <p>
+              Mark Lee’s approach blends Scandinavian simplicity with modern luxury, bringing comfort to every room.
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Brand Statement -->
   <section class="brand-section">
     <div class="container">
-      <div class="brand-logo">LF</div>
-      <h4>Wrong for Luxora</h4>
+      <div class="brand-logo">LW</div>
+      <h4>Wrong for LUXORA</h4>
       <p>
-        “Wrong for Luxora” is a new design collaboration and a statement collection presenting bold, original pieces that bring high-end design to everyday spaces.
+        “Wrong for LUXORA” is an exclusive collection featuring bold, original pieces that bring refined style to everyday living.
       </p>
     </div>
   </section>
 
-  <section id="stores" class="stores section">
+  <!-- Stores Section -->
+  <section id="stores" class="section stores">
     <div class="container">
-      <h3>Stores</h3>
-      <div class="store-list">
-        <div class="store-info">
-          <h4>Luxora House</h4>
+      <h3>STORES</h3>
+      <div class="store-row flex-even">
+        <div class="store-card">
+          <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=340&q=80" alt="Luxora House">
+          <h4>LUXORA HOUSE</h4>
           <p>123 Elegant Road, City<br>
           +1 234 567 8901<br>
           hello@luxora.com</p>
         </div>
-        <div class="store-info">
-          <h4>Luxora CPH</h4>
+        <div class="store-card">
+          <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=340&q=80" alt="Luxora CPH">
+          <h4>LUXORA CPH</h4>
           <p>456 Chic Avenue, City<br>
           +1 234 567 8902<br>
           contact@luxora.com</p>
@@ -134,19 +150,31 @@
     </div>
   </section>
 
-  <section class="shop-online-cta">
-    <h3>Online Shop</h3>
-    <a href="#">www.luxorafurniture.com</a>
+  <!-- Online Shop CTA -->
+  <section id="shop" class="shop-cta">
+    <div class="container">
+      <h3>Online Shop</h3>
+      <a href="https://luxorafurniture.com">www.luxorafurniture.com</a>
+      <div class="shop-chairs-row">
+        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=250&q=80" alt="Chair 1">
+        <img src="https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=250&q=80" alt="Chair 2">
+        <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?auto=format&fit=crop&w=250&q=80" alt="Chair 3">
+        <img src="https://images.unsplash.com/photo-1515825836265-d07d1e39bad6?auto=format&fit=crop&w=250&q=80" alt="Chair 4">
+      </div>
+    </div>
   </section>
 
-  <footer class="main-footer">
-    <div class="container footer-flex">
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-row">
       <div class="footer-menu">
         <h5>Menu</h5>
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#collection">Collection</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="#designer">Designers</a></li>
+          <li><a href="#stores">Stores</a></li>
+          <li><a href="#shop">Shop</a></li>
         </ul>
       </div>
       <div class="footer-contact">
