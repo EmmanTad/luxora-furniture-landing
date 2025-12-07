@@ -1,88 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
   <title>Luxora Furniture</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Premium modern furniture for stylish living spaces.">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header class="main-header">
+    <div class="container">
+      <h1 class="logo">LUXORA</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+        <a href="#stores">Stores</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<header>
-  <div class="logo" tabindex="0" aria-label="Luxora Furniture Home">LUXORA</div>
-  <nav id="nav" aria-label="Main navigation">
-    <a href="#products">Products</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
-    <span aria-hidden="true">☰</span>
-  </button>
-</header>
-
-<main>
-  <section class="hero" aria-label="Hero Banner">
+  <section class="hero">
     <div class="hero-content">
-      <h1>Premium Modern Furniture</h1>
-      <p>Comfort. Style. Luxury.</p>
-      <a href="#products" class="btn">Shop Now</a>
+      <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80" alt="Featured Sofa" class="hero-img-main">
+      <h2>Maggs Soft Sofa</h2>
+      <p class="hero-text">
+        Maggs Soft is multi-functional and versatile with its deep seat and backrest, wonderful for relaxing, reading, eating, sleeping, or chilling.
+      </p>
     </div>
   </section>
 
-  <section class="carousel-section" id="products" aria-label="Featured Collection">
-    <h2>Featured Collection</h2>
-    <div class="carousel-wrapper">
-      <button type="button" class="carousel-btn prev" aria-label="Scroll left" id="carousel-prev">❮</button>
-      <div class="carousel-container" id="carousel" tabindex="0">
-        <div class="product-card">
-          <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed" alt="Scandi Lounge Chair">
-          <h3>Scandi Lounge Chair</h3>
-          <p>$249</p>
+  <section class="who-we-are section">
+    <div class="container">
+      <h3>We Love What We Do</h3>
+      <p>
+        At Luxora, we're focused on refined craftsmanship and flexible furniture design that elevates your space. Every piece is created with timeless style and enduring quality in mind.
+      </p>
+      <div class="featured-images-row">
+        <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=400&q=80" alt="Modern Cabinet">
+        <img src="https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&w=400&q=80" alt="Green Sofa">
+        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=400&q=80" alt="Chair Studio">
+      </div>
+    </div>
+  </section>
+
+  <section id="collection" class="collection section">
+    <div class="container">
+      <h3>Collection</h3>
+      <div class="collection-grid">
+        <div class="collection-card">
+          <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=400&q=80" alt="Chairs">
+          <span>Chairs</span>
         </div>
-        <div class="product-card">
-          <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7" alt="Luxury Leather Sofa">
-          <h3>Luxury Leather Sofa</h3>
-          <p>$899</p>
+        <div class="collection-card">
+          <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=400&q=80" alt="Lounge">
+          <span>Lounge</span>
         </div>
-        <div class="product-card">
-          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Coffee Table">
-          <h3>Coffee Table</h3>
-          <p>$129</p>
+        <div class="collection-card">
+          <img src="https://images.unsplash.com/photo-1460518451285-97b6aa326961?auto=format&fit=crop&w=400&q=80" alt="Tables">
+          <span>Tables</span>
+        </div>
+        <div class="collection-card">
+          <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=400&q=80" alt="Storage">
+          <span>Storage</span>
+        </div>
+        <div class="collection-card">
+          <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Office">
+          <span>Office</span>
+        </div>
+        <div class="collection-card">
+          <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=400&q=80" alt="Books">
+          <span>Bookcases</span>
+        </div>
+        <div class="collection-card">
+          <img src="https://images.unsplash.com/photo-1465101178521-c1a9136a6a6b?auto=format&fit=crop&w=400&q=80" alt="Decoration">
+          <span>Decoration</span>
+        </div>
+        <div class="collection-card">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80" alt="Mirrors">
+          <span>Mirrors</span>
+        </div>
+        <div class="collection-card">
+          <img src="https://images.unsplash.com/photo-1515825836265-d07d1e39bad6?auto=format&fit=crop&w=400&q=80" alt="Others">
+          <span>Others</span>
         </div>
       </div>
-      <button type="button" class="carousel-btn next" aria-label="Scroll right" id="carousel-next">❯</button>
     </div>
   </section>
 
-  <section class="about" id="about">
-    <h2>About Luxora</h2>
-    <p>Luxora delivers premium furniture crafted with design, comfort, and durability in mind.</p>
+  <section id="about" class="designer section">
+    <div class="container">
+      <h3>Our Story & Designers</h3>
+      <div class="designer-row">
+        <div class="designer-details">
+          <h4>Ronan & Erwan Bouroullec</h4>
+          <p>
+            Since 2010, Ronan and Erwan Bouroullec have worked to bring innovative and beautiful designs to Luxora. Their approach is rooted in material exploration, sustainable practice, and an endless curiosity for making great spaces.
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section class="parallax" aria-label="Parallax Decorative Section"></section>
-
-  <section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <form autocomplete="on">
-      <label for="name">Name</label>
-      <input id="name" name="name" type="text" placeholder="Your Name" required>
-      <label for="email">Email</label>
-      <input id="email" name="email" type="email" placeholder="Your Email" required>
-      <label for="message">Message</label>
-      <textarea id="message" name="message" placeholder="Message"></textarea>
-      <button type="submit">Send Message</button>
-    </form>
+  <section class="brand-section">
+    <div class="container">
+      <div class="brand-logo">LF</div>
+      <h4>Wrong for Luxora</h4>
+      <p>
+        “Wrong for Luxora” is a new design collaboration and a statement collection presenting bold, original pieces that bring high-end design to everyday spaces.
+      </p>
+    </div>
   </section>
-</main>
 
-<footer>
-  <small>
-    © 2025 Luxora Furniture &bull; 
-    <span>Follow us on <a href="#" aria-label="Luxora Instagram">Instagram</a> | <a href="#" aria-label="Luxora Facebook">Facebook</a></span>
-  </small>
-</footer>
+  <section id="stores" class="stores section">
+    <div class="container">
+      <h3>Stores</h3>
+      <div class="store-list">
+        <div class="store-info">
+          <h4>Luxora House</h4>
+          <p>123 Elegant Road, City<br>
+          +1 234 567 8901<br>
+          hello@luxora.com</p>
+        </div>
+        <div class="store-info">
+          <h4>Luxora CPH</h4>
+          <p>456 Chic Avenue, City<br>
+          +1 234 567 8902<br>
+          contact@luxora.com</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<script src="script.js"></script>
+  <section class="shop-online-cta">
+    <h3>Online Shop</h3>
+    <a href="#">www.luxorafurniture.com</a>
+  </section>
+
+  <footer class="main-footer">
+    <div class="container footer-flex">
+      <div class="footer-menu">
+        <h5>Menu</h5>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h5>Contact</h5>
+        <ul>
+          <li>hello@luxora.com</li>
+          <li>+1 234 567 8901</li>
+        </ul>
+      </div>
+      <div class="footer-social">
+        <h5>Social</h5>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copy">
+      © 2025 Luxora Furniture. All rights reserved.
+    </div>
+  </footer>
 </body>
 </html>
